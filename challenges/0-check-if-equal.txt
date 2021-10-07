@@ -1,4 +1,5 @@
-Write a function that, given two numbers, returns a boolean representing whether or not the two numbers are equal.
+Write a function that, given two numbers, 
+returns a boolean representing whether or not the two numbers are equal.
 
 You may assume that the numbers are always integers (i.e. whole numbers).
 
@@ -26,3 +27,6 @@ isEqual(0, 0) should be True
 isEqual(-4, -4) should be True
 isEqual(4, -4) should be False
 isEqual(0, 1) should be False
+isEqual(100, 100) should be True
+isEqual(10, 100) should be False
+isEqual(11, 1) should be False
